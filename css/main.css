@@ -14,31 +14,31 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
   z-index: 1;
-  transition:
+  transition: all 1s linear;
 }
 
 .polaroid:first-child {
-  top: 150px;
+  top: 100px;
   left: 150px;
-  transform:rotate(-10deg);
+  transform: rotate(-15deg);
 }
 
 .polaroid:nth-child(2) {
-  top: 200px;
+  top: 150px;
   left: 250px;
-  transform:rotate(5deg);
+  transform: rotate(5deg);
   z-index: 2;
 }
 
 .polaroid:last-child {
-  top: 150px;
+  top: 100px;
   left: 350px;
-  transform:rotate(30deg);
+  transform: rotate(30deg);
 }
 
 .polaroid:hover {
   z-index: 3;
-  transform:rotate(0);
+  transform: rotate(0);
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
